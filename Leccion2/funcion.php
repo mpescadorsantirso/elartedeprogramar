@@ -22,8 +22,8 @@ function referencia(&$referencia)
 echo funcion();
 procedimiento();
 $valor = 'valor';
-echo $valor;
+echo $valor."\n";
 valor($valor);
-echo $valor;
+echo $valor."\n";
 referencia($valor);
-echo $valor;
+echo $valor."\n";
