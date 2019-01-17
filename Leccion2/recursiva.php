@@ -4,7 +4,7 @@ function recursiva($valor)
 {
     echo $valor;
     --$valor;
-    if ($valor == 0) {
+    if (0 == $valor) {
         return;
     }
     recursiva($valor);
