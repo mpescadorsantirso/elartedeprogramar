@@ -43,7 +43,7 @@ $moto->arrancar();
 $moto->cuantasRuedas();
 $moto->cuantasPersonas();
 $coche = new Coche();
-echo $coche->nombre.$moto::MOTOR."\n";
+echo $coche->nombre.$coche::MOTOR."\n";
 $coche->arrancar();
 $coche->cuantasRuedas();
 $coche->cuantasPersonas();

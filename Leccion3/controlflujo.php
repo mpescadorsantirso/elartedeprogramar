@@ -15,6 +15,8 @@ for ($i = 0; $i < 10; ++$i) {
 }
 foreach ($array as  $clave => $valor) {
     echo "$clave => $valor\n";
+    echo '$clave => $valor\n';
+
     switch ($valor) {
         case 1: echo $valor."\n"; break;
         case 2: continue;
