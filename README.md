@@ -8,10 +8,15 @@ Este repositorio se usa como ayuda al canal de youtube El Arte de Programar
 
 ### Lección 2
 
-### Codigo
+#### Codigo
 helloword.php --> Ejemplo base
 arraypopulation.php --> Ejemplo de array
 funcion.php --> Ejemplo de funciones
 recursiva.php --> Ejemplo de funcion recursiva
 Instalacion php[Leccion2/PHPINSTALL.md]
 Instalacion visual studio code y git[Leccion2/PHPINSTALL.md]
+
+### Lección 3
+#### Codigo
+controlflujo.php --> Ejemplo de control de flujo
+objetos.php --> Ejemplo de objetos
