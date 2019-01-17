@@ -1,5 +1,13 @@
 <?php
 
+function divide($i)
+{
+    if ($i == 0) {
+        throw new \Exception('Division por 0\n');
+    } else {
+        return 10 / $i;
+    }
+}
 
 $array = [];
 for ($i = 0; $i < 10; ++$i) {
@@ -26,7 +34,7 @@ do {
 } while ($i < 10);
 
 try {
-    $i = 10 / 0;
+    divide(0);
     echo "Se puede dividir por 0\n";
 } catch (\Exception $e) {
     echo "Capturando excepción de division por 0\n";
